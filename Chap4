@@ -1,0 +1,29 @@
+1. The TableLayout class can be used to organize various GUI components
+>>As a table of multiple rows with only one column each
+
+2. The direct superclass of LinearLayout and RelativeLayout is
+>>ViewGroup
+
+3. TableLayout and TableRow are direct subclasses of
+>>LinearLayout
+
+4.The RelativeLayout class is a good choice to organize various GUI components
+>>So that we position components relative to other components
+
+5. In what package is the Intent class?
+>>android.content
+
+6. After you have created an Intent for a new activity, what method of the Activity class do you call with that Intent parameter in order to start a new activity?
+>>startActivity
+
+7. What method of the Activity class is automaticallycalled when an activity is about to restart?
+>>onRestart
+
+8. What methods of the Activity class (and in what order) are automatically called when an activity is first created?
+>>onCreate, onStart, and onResume (in that order)
+
+9. What method of the Activity class is automatically called when an activity becomes invisible to the user?
+>>onPause
+
+10. Two activities can share the same data
+>>Yes, for example by each accessing a public static instance variable from another class

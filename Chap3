@@ -1,0 +1,35 @@
+1. How do we import View.OnClickListener (if we want to use code like View. OnClickListener listener;)?
+>>Importing the View class is sufficient
+
+2. What is the name of the abstract method of View.OnClickListener?
+>>onClick
+
+3. What method of the ViewGroup class do we use to add a child View to a parent View?
+>>addView
+
+4. We are coding inside the private class Y, which is coded inside the public class X. How do we access the current object of the Y class?
+>>this
+
+5. We are coding inside the private class Y, which is coded inside the public class X. How do we access the current object of the X class?
+>>X.this
+
+6. How do we retrieve the size of the screen (assuming that size is a Point object reference)?
+>>getWindowManager( ).getDefaultDisplay( ).getSize( size );
+
+7. What is the data type of this in the code GridLayout gridLayout = new GridLayout( this )?
+>>View
+
+8. What method of the GridLayout class do we use to set the number of rows of the grid?
+>>setRowCount
+
+9. What method of the Activity class do we use to set the view for an activity?
+>>setContentView
+
+10. Inside an Activity class, how do we instantiate a button?
+>>Button b new Button( this );
+
+11. What class is used by views to tell their parents how they want to be laid out?
+>> LayoutParams
+
+12. What method do we use to specify the alignment of the text within a TextView?
+>> setGravity
