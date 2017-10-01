@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cornfieldfox.c4_p28.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <RadioGroup
+            android:id="@+id/MKGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:layout_marginTop="0dp"
+            android:layout_row="1"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+            <RadioButton
+                android:id="@+id/KiloToMileRBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="top|center"
+                android:layout_row="0"
+                android:layout_rowWeight="0"
+                android:layout_weight="0"
+                android:text="Kilometer to Mile" />
+
+            <RadioButton
+                android:id="@+id/MileToKiloRBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="bottom|center"
+                android:layout_row="0"
+                android:layout_rowWeight="0"
+                android:layout_weight="0"
+                android:text="Mile to Kilometer"
+                tools:layout_editor_absoluteX="-348dp"
+                tools:layout_editor_absoluteY="281dp" />
+
+        </RadioGroup>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_gravity="bottom|end">
+
+            <Button
+                android:id="@+id/Calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="top|center_vertical|center_horizontal|center"
+                android:layout_row="0"
+                android:text="Calculate" />
+        </GridLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
