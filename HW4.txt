@@ -1,0 +1,67 @@
+Chap3
+1. How do we import View.OnClickListener (if we want to use code like View. OnClickListener listener;)?
+>>Importing the View class is sufficient
+
+2. What is the name of the abstract method of View.OnClickListener?
+>>onClick
+
+3. What method of the ViewGroup class do we use to add a child View to a parent View?
+>>addView
+
+4. We are coding inside the private class Y, which is coded inside the public class X. How do we access the current object of the Y class?
+>>this
+
+5. We are coding inside the private class Y, which is coded inside the public class X. How do we access the current object of the X class?
+>>X.this
+
+6. How do we retrieve the size of the screen (assuming that size is a Point object reference)?
+>>getWindowManager( ).getDefaultDisplay( ).getSize( size );
+
+7. What is the data type of this in the code GridLayout gridLayout = new GridLayout( this )?
+>>View
+
+8. What method of the GridLayout class do we use to set the number of rows of the grid?
+>>setRowCount
+
+9. What method of the Activity class do we use to set the view for an activity?
+>>setContentView
+
+10. Inside an Activity class, how do we instantiate a button?
+>>Button b new Button( this );
+
+11. What class is used by views to tell their parents how they want to be laid out?
+>> LayoutParams
+
+12. What method do we use to specify the alignment of the text within a TextView?
+>> setGravity
+
+
+1. The TableLayout class can be used to organize various GUI components
+>>As a table of only one row and multiple columns
+
+2. The direct superclass of LinearLayout and RelativeLayout is
+>>ViewGroup
+
+3. TableLayout and TableRow are direct subclasses of
+>>LinearLayout
+
+4.The RelativeLayout class is a good choice to organize various GUI components
+>>So that we position components relative to other components
+
+5. In what package is the Intent class?
+>>android.content
+
+6. After you have created an Intent for a new activity, what method of the Activity class do you call with that Intent parameter in order to start a new activity?
+>>startActivity
+
+7. What method of the Activity class is automatically called when an activity is about to restart?
+>>onRestart
+
+8. What methods of the Activity class (and in what order) are automatically called when an activity is first created?
+>>onCreate, onStart, and onResume (in that order)
+
+9. What method of the Activity class is automatically called when an activity becomes invisible to the user?
+>>onPause
+
+10. Two activities can share the same data
+>>Yes, for example by each accessing a public static instance variable from another class
